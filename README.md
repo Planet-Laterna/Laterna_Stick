@@ -5,6 +5,12 @@ Laterna Stick is the plugable version of our [Laterna RGB Controller](https://gi
 The Laterna series of boards are mainly intended to be used with [WLED software ](https://github.com/Aircoookie/WLED "WLED's Homepage"), but you can also program the board using your own code or other library.
 In this guideline, we will describe how to flash WLED and run a first "Hello World" example.
 
+<h3>Features</h3>
+Chip:   ESP32 WROOM 32E Wifi and Bluetooth
+<br>USB Type A connector for flashing and 5V power
+<br>1 channel for adressable LED strip with 3 or 4 pins (e.g. WS281x, WS2801, SK6812 etc.)
+<br>5V VIN
+
 ![Laterna Stick](https://github.com/monoapp3/Laterna_Stick/blob/main/Photos/Stick2.png?raw=true)
 
 <h3>Installation</h3>
