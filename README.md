@@ -52,9 +52,11 @@ Please take note that this Laterna Version **only support 5V LED Strips and Powe
 
 [![Alt text](https://img.youtube.com/vi/_RJb7WULv-4/0.jpg)](https://www.youtube.com/watch?v=_RJb7WULv-4)
 
+**Plug and play example - Simple Connection**
+
+[![Alt text](https://img.youtube.com/vi/4foqMvrpt0A/0.jpg)](https://youtu.be/4foqMvrpt0A)
 
 
-* plug and play example - USB power
 * plug and play example - External power supply
 * Adding a button
 * Adding a sound sensor
