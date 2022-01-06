@@ -8,6 +8,7 @@ In this guideline, we will describe how to flash WLED and run a first "Hello Wor
 <h3>Features</h3>
 Chip:   ESP32 WROOM 32E Wifi and Bluetooth
 <br>USB Type A connector for flashing and 5V power
+<br>CP2102 USB to serial chip for easy flashing (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) 
 <br>1 channel for adressable LED strip with 3 or 4 pins (e.g. WS281x, WS2801, SK6812 etc.)
 <br>5V VIN
 
