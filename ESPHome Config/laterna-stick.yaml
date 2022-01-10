@@ -1,28 +1,44 @@
+substitutions:
+  name: "laterna-stick-template"
+
 esphome:
-  name: laterna-stick
+  name: "${name}"
+  # Automatically add the mac address to the name
+  # so you can use a single firmware for all devices
+  name_add_mac_suffix: true
+  
+  # This will allow for (future) project identification,
+  # configuration and updates.
+  project:
+  name: esphome.laterna-stick-template
+  version: "1.0"
 
 esp32:
   board: esp32dev
   framework:
     type: arduino
 
-# Enable logging
+# To be able to get logs from the device via serial and api.
 logger:
 
-# Enable Home Assistant API
+# API is a requirement of the dashboard import.
 api:
 
+# OTA is required for Over-the-Air updating
 ota:
-  password: "739cd763a30ea8e1dfecc7d5f9f8b20b"
+  password: !secret ota_password
+
+dashboard_import:
+  package_import_url: github://monoapp3/Laterna_Stick/edit/main/ESPHome Config/laterna-stick.yaml
 
 wifi:
-  ssid: "Your Wifi SSID"
-  password: "Your Wifi Password"
+  ssid: !secret wifi_ssid
+  password: !secret wifi_pass
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "Laterna Fallback Hotspot"
-    password: "Your secrect key"
+    password: !secret fallback_wifi_password
 
 captive_portal:
 
