@@ -2,10 +2,9 @@
 
 Laterna Stick is the plugable version of our [Laterna RGB Controller](https://github.com/monoapp3/Laterna.git "Laterna's Homepage"). You can use this board for small projects, where not more than a LED Strip channel is required. Besides the LED Strip Channel, the board provides some IO Pins which can be used with sensors and buttons if required by your project.You can power the board using the USB Type A connector or using an external 5V power supply. Please refer to power consumption section for more details. (**Work in Progress**)
 
-The Laterna series of boards are mainly intended to be used with [WLED software ](https://github.com/Aircoookie/WLED "WLED's Homepage"), but you can also program the board using your own code or other library.
-In this guideline, we will describe how to flash WLED and run a first "Hello World" example.
+The Laterna series of boards are mainly intended to be used with [WLED software ](https://github.com/Aircoookie/WLED "WLED's Homepage") or [ESPHome](https://esphome.io), but you can also program the board using your own code or other library.
 
-The board can be ordered on [Aliexpress](https://www.aliexpress.com/item/1005003777511039.html?spm=5261.ProductManageOnline.0.0.3aaa4edfzpZkav)
+The controller can be ordered on [Aliexpress](https://www.aliexpress.com/item/1005003777511039.html?spm=5261.ProductManageOnline.0.0.3aaa4edfzpZkav)
 
 <h3>Features</h3>
 Chip:   ESP32 WROOM 32E Wifi and Bluetooth
