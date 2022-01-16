@@ -13,7 +13,7 @@ Chip:   ESP32 WROOM 32E Wifi and Bluetooth
 <br>1 channel for adressable LED strip with 3 or 4 pins (e.g. WS281x, WS2801, SK6812 etc.)
 <br>5V VIN
 
-![Laterna Stick](https://github.com/monoapp3/Laterna_Stick/blob/main/Photos/Stick2.png?raw=true)
+<img src="/Photos/Stick2.png" width="50%">
 
 <h3>Installation</h3>
 
@@ -35,7 +35,7 @@ We also have a ESPHome template available which can be easily flashed via [this 
 
 <h3>PINOUT Description</h3>
 
-![Laterna Pinout](https://github.com/monoapp3/Laterna_Stick/blob/main/Pinout/Pinout.png?raw=true)
+<img src="/Pinout/Pinout.png" width="50%">
 
 <h3>Circuit protection</h3>
 
