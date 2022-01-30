@@ -6,8 +6,6 @@ The Laterna series of boards are mainly intended to be used with [WLED software 
 
 The controller can be ordered on [Aliexpress](https://www.aliexpress.com/item/1005003777511039.html?spm=5261.ProductManageOnline.0.0.3aaa4edfzpZkav)<br>
 
-[Aliexpress Chinese New Year Coupon](https://a.aliexpress.com/_oov71Gh?spm=5261.promotion_voucher_index.Table.4.4e524edfCGdlMt)<br>
-
 <h3>Features</h3>
 Chip:   ESP32 WROOM 32E Wifi and Bluetooth
 <br>USB Type A connector for flashing and 5V power
