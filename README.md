@@ -11,6 +11,7 @@ Chip:   ESP32 WROOM 32E Wifi and Bluetooth
 <br>USB Type A connector for flashing and 5V power
 <br>CP2102 USB to serial chip for easy flashing (https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) 
 <br>1 channel for adressable LED strip with 3 or 4 pins (e.g. WS281x, WS2801, SK6812 etc.)
+<br>3A resettable Fuse (https://en.wikipedia.org/wiki/Resettable_fuse)
 <br>5V VIN
 
 <img src="/Photos/Stick2.png" width="50%">
