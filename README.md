@@ -42,6 +42,7 @@ We also have a ESPHome template available which can be easily flashed via [this 
 
 this board includes 1 resetable fuse to limit current on the board.
 <br>If powered by external power supply -> 3A
+<br>Please do not power the board via USB and the external Power Terminals at the same time.
 
 We recommend to power the module by using a USB power supply or external powersupply. **DO NOT POWER LED Strips directly from laptop/PC port**
 
